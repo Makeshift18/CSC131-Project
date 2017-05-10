@@ -10,15 +10,15 @@ class Game(Frame):
 
     def setupGUI(self):
         l1 = Label(self.master, text = "Riddle", bg = "lightgrey", width = 100, height = 10)
-        l1.grid(row = 0, column = 0, columnspan = 3, rowspan = 2, sticky=N+S+E+W)
+        l1.grid(row = 0, column = 0, columnspan = 5, rowspan = 2, sticky=N+S+E+W)
         l2 = Label(self.master, text ="A)", bg = "red", width = 5, height = 5)
         l2.grid(row = 3, column = 0, sticky = W)
         l3 = Label(self.master, text ="B)", bg = "blue", width = 5, height = 5)
-        l3.grid(row = 3, column = 2, sticky = W)
+        l3.grid(row = 3, column = 3, sticky = W)
         l4 = Label(self.master, text ="C)", bg = "yellow", width = 5, height = 5)
         l4.grid(row = 4, column = 0, sticky = W)
         l5 = Label(self.master, text ="D)", bg = "green",width = 5, height = 5)
-        l5.grid(row = 4, column = 2, sticky = W)
+        l5.grid(row = 4, column = 3, sticky = W)
 
 
 
